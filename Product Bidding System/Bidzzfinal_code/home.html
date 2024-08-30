@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="navigation.css">
+<style>
+.cat{
+	width: 400px;
+	heigth: 550px;
+	display: inline-block;
+	padding: 20px 22px;
+	border-radius: 10px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	margin: 15px 50px;
+	text-align:center;
+	background-color: #fffee7;
+	transition: transform 0.5s;
+}
+.cat:hover{
+	transform: translateY(-10px);
+}
+.cat img{
+	width:250px;
+	height: 260px;
+}
+.cat a{
+	text-decoration:none;
+	font-size:20px;	
+	color:black;
+}
+</style>
+</head>
+<body>
+<header>
+	<div class="navbar">
+	<img class="logo" src="Bidzz.jpg" alt="Bidzz">
+	<div class="dd">
+		<button class="dbt">Account</button>
+		<div class="dd-content" style="right:0;">
+		<a href="profile.php">My Profile</a>
+		<a href="mypro.php">My Products</a>
+		<a href="bidproducts.php">Bidded Products</a>
+		<a href="logout.html">Log Out</a>
+		</div>
+	</div>	
+	<a href="aboutus.html">About Us</a>
+	<div class="dd">
+		<button class="dbt">Auction</button>
+		<div class="dd-content">
+		<a href="addpro.php">Add Products</a>
+		<a href="delpro.php">Delete Products</a>
+		</div>
+	</div>
+	<a href="home.html">Home</a>	
+</div>
+</header>
+<div class="cat">
+<a href="electronics.php"><img src="electronics.jpg" alt="electronics"><br>Electronics</a>
+</div>
+<div class="cat">
+<a href="clothing.php"><img src="clothing.jpg" alt="clothing"><br>Clothing</a>
+</div>
+<div class="cat">
+<a href="books.php"><img src="books.jpg" alt="books"><br>Books</a>
+</div>
+<div class="cat">
+<a href="furnitures.php"><img src="furnitures.jpg" alt="furniture"><br>Furniture</a>
+</div>
+</body>
+</html>
